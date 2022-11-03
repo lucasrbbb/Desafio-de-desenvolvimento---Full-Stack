@@ -1,0 +1,44 @@
+.main{
+    background: lightblue;
+}
+
+.container {
+    /* height: 120vh; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: stretch;
+}
+
+
+.item {
+    border: 1px solid lightgray;
+    font-size: 18px;
+    margin: 10px;
+    background: white;
+}
+
+.i1 {
+    padding: 20px;
+    flex-grow: 2;
+    flex-basis: 150px;
+}
+
+.i2 {
+    padding: 20px;
+    flex-grow: 2;
+    flex-basis: 150px;
+}
+
+.i3 {
+    padding: 20px;
+    flex-grow: 2;
+    flex-basis: 150px;
+    
+}
+
+
+th,td{
+    text-align: center;
+}
