@@ -11,7 +11,9 @@ Comentários
 -> Alguns bugs que não deu tempo para tratar: 
    + Ao usar o comando "excluir um ingrediente de uma receita" que tem um ingrediente só cadastrado, ele é excluido mas retorna tela de erro;
    + Ao escolher alterar ordem de ingredientes em uma receita se for escolhido o mesmo nos dois espaços retorna tela de erro;
+   + Depedendo da ordem que é colocado os itens pra alterar ordem não funciona, precisaria rever o código para ver qual a falha;
    + Somente é possível excluir um ingrediente do cadastro se ele não estiver sendo utilizado em uma receita. Isso acontece por pela tabela "ingredientes" estar sendo usada na tabela relacional "ingrediente_receitas". Para resolver isso deixei limitado excluir ingredientes que não estão sendo usados em receitas;
+ 
 
 
      
